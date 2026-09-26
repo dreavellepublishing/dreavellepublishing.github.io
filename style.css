@@ -548,7 +548,7 @@ a:hover {
     display: inline-block;
     margin-top: 25px;
     padding: 14px 32px;
-    background-color: #0b4f6c !important;
+    background-color: #0b4f6c;
     color:white;
     text-decoration: none;
     font-size: 17px;
@@ -686,4 +686,187 @@ a:hover {
 .view-author-button:hover {
     background-color: #083b51;
     transform: translateY(-2px);
+}
+
+/* ========================================
+   ABOUT PAGE
+======================================== */
+
+/* Shared About Container */
+.about-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 70px 30px;
+    text-align: center;
+}
+
+/* Small Section Labels */
+.about-label {
+    color: #5f9fba;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+/* About Page Headings */
+.our-story-section h2,
+.mission-section h2,
+.vision-section h2,
+.philosophy-section h2 {
+    color: #0b4f6c;
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+/* About Page Paragraphs */
+.our-story-section p,
+.mission-section p,
+.vision-section p,
+.philosophy-section p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 22px;
+}
+
+/* Our Story */
+.our-story-section {
+    background-color: #eaf4f8;
+    padding-top: 0;
+    padding-bottom: 25px;
+}
+.our-story-section .about-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* Mission */
+.mission-section {
+    background-color: white;
+}
+
+/* Vision */
+.vision-section {
+    background-color: #eaf4f8;
+}
+
+/* Philosophy */
+.philosophy-section {
+    background-color: white;
+}
+
+.philosophy-section .about-container {
+    padding-bottom: 35px;
+}
+
+/* Special Tagline */
+.story-tagline {
+    color: #0b4f6c;
+    font-size: 20px !important;
+    margin-top: 35px;
+}
+
+/* About Page Mobile */
+@media (max-width: 768px) {
+
+    .about-container {
+        padding: 50px 25px;
+    }
+
+    .our-story-section h2,
+    .mission-section h2,
+    .vision-section h2,
+    .philosophy-section h2 {
+        font-size: 30px;
+    }
+
+    .our-story-section p,
+    .mission-section p,
+    .vision-section p,
+    .philosophy-section p {
+        font-size: 16px;
+    }
+}
+
+/* =========================
+   SITE FOOTER
+========================= */
+
+.site-footer {
+    background-color: #0b4f6c;
+    color: white;
+    text-align: center;
+    padding: 50px 30px 30px;
+}
+
+.footer-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.site-footer h2 {
+    color: white;
+    font-size: 28px;
+    margin: 0 0 10px;
+}
+
+.footer-tagline {
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.footer-links {
+    margin-bottom: 30px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 14px;
+    font-size: 16px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-copyright {
+    font-size: 14px;
+    margin: 0;
+    opacity: 0.85;
+}
+
+/* Footer Mobile */
+@media (max-width: 768px) {
+
+    .site-footer {
+        padding: 40px 20px 25px;
+    }
+
+    .site-footer h2 {
+        font-size: 24px;
+    }
+
+    .footer-tagline {
+        font-size: 15px;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px 20px;
+    }
+
+    .footer-links a {
+        margin: 0;
+        font-size: 15px;
+    }
+
+    .footer-copyright {
+        font-size: 13px;
+        line-height: 1.6;
+    }
 }
