@@ -457,3 +457,126 @@ a:hover {
     color: #294b5f;
     font-weight: bold;
 }
+
+/* ================================
+   BOOK DETAIL PAGE
+================================ */
+
+.book-detail {
+    padding: 80px 8%;
+    min-height: 80vh;
+    background-color: #f4fbfd;
+}
+
+.book-detail-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.book-detail-cover {
+    flex: 0 0 330px;
+}
+
+.book-detail-cover img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.book-detail-info {
+    flex: 1;
+    max-width: 600px;
+}
+
+.book-label {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.book-detail-info h1 {
+    font-size: 48px;
+    margin: 0 0 10px;
+}
+
+.book-author {
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+
+.book-detail-info h2 {
+    font-size: 27px;
+    margin-bottom: 15px;
+}
+
+.book-synopsis {
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+/* Mobile layout */
+@media (max-width: 768px) {
+    .book-detail-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .book-detail-cover {
+        width: 100%;
+        max-width: 300px;
+        flex: none;
+    }
+
+    .book-detail-info {
+        text-align: center;
+    }
+
+    .book-detail-info h1 {
+        font-size: 36px;
+    }
+}
+
+/* Order Button */
+.order-button {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 14px 32px;
+    background-color: #0b4f6c;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+.order-button:hover {
+    background-color: #083b51;
+    transform: translateY(-2px);
+}
+
+/* View Book Button */
+.view-book-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 11px 25px;
+    background-color: #0b4f6c;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+.view-book-button:hover {
+    background-color: #083b51;
+    transform: translateY(-2px);
+}
