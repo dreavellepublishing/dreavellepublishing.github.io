@@ -548,8 +548,8 @@ a:hover {
     display: inline-block;
     margin-top: 25px;
     padding: 14px 32px;
-    background-color: #0b4f6c;
-    color: white;
+    background-color: 0b4f6c;
+    color:white;
     text-decoration: none;
     font-size: 17px;
     font-weight: bold;
@@ -558,7 +558,7 @@ a:hover {
 }
 
 .order-button:hover {
-    background-color: #083b51;
+    background-color: 083b51;
     transform: translateY(-2px);
 }
 
