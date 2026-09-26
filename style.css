@@ -1,0 +1,459 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    background-color: #eaf4f8;
+    color: #294b5f;
+    font-family: Georgia, serif;
+}
+
+/* Navigation Bar */
+
+header {
+    background-color: white;
+    padding: 20px 50px;
+    border-bottom: 1px solid #d5e5eb;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #294b5f;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #294b5f;
+    font-size: 16px;
+}
+
+a:hover {
+    color: #7a9caf;
+}
+/* Hero Section */
+
+.hero {
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero-cover {
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.hero-cover img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+.hero h1 {
+    font-size: 56px;
+    line-height: 1.2;
+    margin-bottom: 25px;
+    color: #294b5f;
+}
+
+.hero p {
+    font-size: 20px;
+    line-height: 1.7;
+    margin-bottom: 35px;
+}
+
+.hero-button {
+    display: inline-block;
+    background-color: #294b5f;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.hero-button:hover {
+    background-color: #7a9caf;
+}
+/* Featured Books Section */
+
+.featured-books {
+    background-color: white;
+    padding: 90px 50px;
+    text-align: center;
+}
+
+/* About Dreavelle Section */
+
+.about {
+    background-color: #eaf4f8;
+    padding: 100px 30px;
+    text-align: center;
+}
+
+.about-content {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.about-label {
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #7a9caf;
+    margin-bottom: 15px;
+}
+
+.about h2 {
+    font-size: 42px;
+    color: #294b5f;
+    margin: 0 0 25px;
+}
+
+.about-text {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #526d7c;
+    margin-bottom: 35px;
+}
+
+.about-button {
+    display: inline-block;
+    padding: 14px 28px;
+    background-color: #294b5f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about-button:hover {
+    background-color: #7a9caf;
+}
+
+.section-heading {
+    max-width: 700px;
+    margin: 0 auto 50px;
+}
+
+.section-heading h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #294b5f;
+}
+
+.section-heading p {
+    font-size: 18px;
+    color: #5f7887;
+}
+
+.books-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.book-card {
+    width: 250px;
+}
+
+.book-cover {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.book-cover span {
+    color: #6d8795;
+    font-size: 16px;
+}
+
+.book-card h3 {
+    color: #294b5f;
+    font-size: 21px;
+    margin: 10px 0;
+}
+
+.book-card p {
+    color: #6d8795;
+    margin: 0;
+}
+.book-cover img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+/* Authors Section */
+
+.authors {
+    background-color: white;
+    padding: 90px 50px;
+    text-align: center;
+}
+
+.authors-label {
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #7a9caf;
+    margin-bottom: 15px;
+}
+
+.authors .section-heading h2 {
+    font-size: 40px;
+    color: #294b5f;
+    margin: 0 0 15px;
+}
+
+.authors-container {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    max-width: 1000px;
+    margin: 50px auto 0;
+}
+
+.author-card {
+    width: 250px;
+    padding: 30px 25px;
+    background-color: #f5fafc;
+    border: 1px solid #d5e5eb;
+    border-radius: 8px;
+}
+
+.author-photo {
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.author-card h3 {
+    font-size: 22px;
+    color: #294b5f;
+    margin: 5px 0 15px;
+}
+
+.author-of {
+    color: #7a9caf;
+    margin: 0 0 7px;
+    font-size: 15px;
+}
+
+.author-card h4 {
+    color: #294b5f;
+    font-size: 17px;
+    margin: 0;
+    font-weight: normal;
+}
+/* Submissions Section */
+
+.submissions {
+    background-color: #294b5f;
+    padding: 100px 30px;
+    text-align: center;
+}
+
+.submissions-content {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.submissions-label {
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #b9d4df;
+    margin-bottom: 15px;
+}
+
+.submissions h2 {
+    font-size: 42px;
+    color: white;
+    margin: 0 0 25px;
+}
+
+.submissions-content > p:not(.submissions-label) {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #e3eef2;
+    margin-bottom: 35px;
+}
+
+.submissions-button {
+    display: inline-block;
+    background-color: white;
+    color: #294b5f;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.submissions-button:hover {
+    background-color: #eaf4f8;
+}
+/* Footer */
+
+.footer {
+    background-color: #183b4a;
+    color: white;
+    padding: 60px 30px 30px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer h2 {
+    font-size: 28px;
+    margin: 0 0 10px;
+    color: white;
+}
+
+.footer-tagline {
+    color: #b9d4df;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.footer-links a:hover {
+    color: #b9d4df;
+}
+
+.footer-line {
+    height: 1px;
+    background-color: #416270;
+    margin: 40px 0 25px;
+}
+
+.copyright {
+    color: #b9d4df;
+    font-size: 14px;
+    margin: 0;
+}
+/* Contact Section */
+
+.contact {
+    background-color: #f7fbfc;
+    padding: 90px 30px;
+    text-align: center;
+}
+
+.contact-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.contact-label {
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #5f91a8;
+    margin-bottom: 15px;
+}
+
+.contact h2 {
+    font-size: 42px;
+    color: #294b5f;
+    margin: 0 0 20px;
+}
+
+.contact-intro {
+    max-width: 700px;
+    margin: 0 auto 45px;
+    font-size: 17px;
+    line-height: 1.8;
+    color: #527286;
+}
+
+.contact-options {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.contact-card {
+    background-color: white;
+    border: 1px solid #d5e8ef;
+    border-radius: 8px;
+    padding: 30px 25px;
+    width: 250px;
+}
+
+.contact-card h3 {
+    color: #294b5f;
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.contact-card p {
+    color: #527286;
+    line-height: 1.5;
+}
+
+.contact-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #294b5f;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact-card a:hover {
+    text-decoration: underline;
+}
+
+.contact-card span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #294b5f;
+    font-weight: bold;
+}
