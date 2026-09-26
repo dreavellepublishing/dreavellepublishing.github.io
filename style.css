@@ -580,3 +580,110 @@ a:hover {
     background-color: #083b51;
     transform: translateY(-2px);
 }
+
+/* Author Detail Page */
+
+.author-detail {
+    padding: 70px 20px;
+    background-color: #f7fbfd;
+    min-height: 70vh;
+}
+
+.author-detail-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+.author-detail-photo {
+    flex: 0 0 300px;
+}
+
+.author-detail-photo img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+}
+
+.author-detail-info {
+    flex: 1;
+}
+
+.author-label {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #0b4f6c;
+    margin-bottom: 10px;
+}
+
+.author-detail-info h1 {
+    font-size: 42px;
+    color: #0b4f6c;
+    margin-bottom: 10px;
+}
+
+.author-of {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.author-biography {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.author-biography h2 {
+    color: #0b4f6c;
+    margin-bottom: 15px;
+}
+
+.author-biography p {
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+    .author-detail-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .author-detail-photo {
+        flex: none;
+    }
+
+    .author-detail-photo img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .author-detail-info h1 {
+        font-size: 34px;
+    }
+}
+
+/* View Author Button */
+.view-author-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 11px 25px;
+    background-color: #0b4f6c;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+.view-author-button:hover {
+    background-color: #083b51;
+    transform: translateY(-2px);
+}
